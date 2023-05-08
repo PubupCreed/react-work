@@ -33,6 +33,8 @@ body {
     color: #292D32;
     font-size: $fontSize;
     background-color: #FAFBFF;
+	font-family: $fontFamily;
+	font-style: normal;
 }
 input,
 button,
@@ -68,4 +70,8 @@ h5,
 h6 {
 	font-weight: inherit;
 	font-size: inherit;
+}
+
+#root {
+	height: 100%;
 }
